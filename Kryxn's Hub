@@ -1,0 +1,8 @@
+local GameIDs = {
+    [192800] =function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/Kryxn1423/ScriptHub/main/PizzaPlaceScript")()
+    end,
+}
+if GameIDs[game.PlaceId] then
+    GameIDs[game.PlaceId]()
+end
